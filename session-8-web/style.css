@@ -1,0 +1,41 @@
+body {
+    background-color: aquamarine;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 32px;
+}
+
+h1 {
+    color: white;
+}
+
+span {
+    display: inline;
+    color: red;
+}
+
+#omar {
+    padding: 8px;
+    border: red 2px solid;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: turquoise;
+    padding: 16px;
+}
+
+.left {
+    margin-right: 32px;
+}
+
+.right {
+    width: 30%;
+}
