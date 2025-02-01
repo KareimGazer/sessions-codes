@@ -2,40 +2,76 @@ body {
     background-color: aquamarine;
     font-family: sans-serif;
     margin: 0;
-    padding: 32px;
+    padding: 2rem;
 }
 
 h1 {
-    color: white;
+    color: azure;
+}
+
+.imp {
+    border: red 2px solid;
+    padding: 8px;
 }
 
 span {
-    display: inline;
     color: red;
 }
 
-#omar {
-    padding: 8px;
-    border: red 2px solid;
+.grad {
+    background: linear-gradient(90deg, #d1560a  0%, #3374e4 20%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 32px;
 }
 
 img {
     display: block;
     width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
 }
 
 main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    background-color: turquoise;
-    padding: 16px;
+    justify-content: space-between;
+    background-color:turquoise;
 }
 
 .left {
-    margin-right: 32px;
+    padding: 2rem;
 }
 
 .right {
-    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+
+    img {
+        max-width: 300px;
+        height: 250px;
+    }
+
+    .right {
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    
+    main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

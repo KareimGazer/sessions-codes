@@ -3,20 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cats</title>
+    <title>Cat Blog</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
         <div class="left">
             <h1>Cats <span>Blog</span></h1>
-            <p>Cats are awesome, they can be your best friend</p>
-            <p>The Cat Is the best!!!</p>
-            <p id="omar">Omar 3am el-dinia</p>
+            <p>I love Cats</p>
+            <p class="imp">I think cats are awesome</p>
+            <p class="grad">There are many kinds of cats</p>
+            <ul>
+                <li>Siamese</li>
+                <li>Persian</li>
+                <li><a href="https://en.wikipedia.org/wiki/British_Shorthair">British Shorthair</a></li>
+                <li>Ragdoll</li>
+                <li>Scottish Fold</li>
+            </ul>
         </div>
         <div class="right">
-            <img src="./images/cat.jpg" alt="nice cat">
+            <img src="./images/cat.jpg" alt="a photo of a cat">
         </div>
     </main>
+    <section>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2020 Cats Blog</p>
+    </footer>
 </body>
 </html>
